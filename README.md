@@ -52,11 +52,11 @@ For any help type in the comments your issue or open issue in github where the d
 recommended to open issue in github :slight_smile: 
 *********************************************************************
 **Video**<br>
-soon***************************
+[Click Here](https://streamable.com/o0klzz) to Preview!
 *********************************************************************
 **Download**<br>
 [Click Here](https://github.com/LielXD/xd_doorlock) to Download!
 *********************************************************************
 **My Scripts**<br>
-* [xd_locksystem](https://github.com/LielXD/xd_locksystem)
-* [xd_doorlock](https://github.com/LielXD/xd_doorlock)
+* [xd_locksystem](https://forum.cfx.re/t/release-esx-xd-locksystem-vehicle-key-system/4849251)
+* [xd_doorlock](https://forum.cfx.re/t/release-esx-xd-doorlock-door-lock-system/4859153)
