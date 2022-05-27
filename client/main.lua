@@ -111,6 +111,10 @@ function changeState(doors)
     end
     for k, v in ipairs(doors) do
         TriggerServerEvent('xd_doorlock:changeState', v.doorId, LockType)
-        DoorSystemSetDoorState(v.doorId, LockType)
     end
 end
+
+RegisterNetEvent('xd_doorlock:changeDoorState')
+AddEventHandler('xd_doorlock:changeDoorState', function(doorId, state)
+	DoorSystemSetDoorState(doorId, state)
+end)
