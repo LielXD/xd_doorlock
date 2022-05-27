@@ -31,14 +31,14 @@ Config.Doors = {
 
 		Jobs = 'police'
 		
-		--[[
-			Jobs Section
-			-------------
-			if false then everyone can toggle the door.
-			if true then no one can toggle the door.
-			if specific job then only the job can toggle the door.
-			you can specify more than one job for example: Jobs = {'police', 'ambulance', 'mechanic'}
-		]]--
+		--------------------------------
+		-- Jobs Section
+		-- -------------
+		-- if false then everyone can toggle the door.
+		-- if true then no one can toggle the door.
+		-- if specific job then only the job can toggle the door.
+		-- you can specify more than one job for example: Jobs = {'police', 'ambulance', 'mechanic'}
+		--------------------------------
 	},
 	]]--
     --[[
