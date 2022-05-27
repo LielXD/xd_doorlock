@@ -17,10 +17,10 @@ Welcome everybody for my xd_doorlock release so this release is for people who n
 **Adding Doors**<br>
 soon***************************
 *********************************************************************
-**Lockpick**
+**Lockpick**<br>
 Lockpick doors will be in future updates
 *********************************************************************
-**Help!**
+**Help!**<br>
 For any help type in the comments your issue or open issue in github where the download link is
 recommended to open issue in github :slight_smile: 
 *********************************************************************
