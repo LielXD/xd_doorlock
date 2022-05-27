@@ -55,11 +55,11 @@ RegisterCommand('toggleDoor', function()
         
                     if not Access then
                         if v.Jobs ~= true and DoorSystemGetDoorState(doorId) ~= 0 then
-							if Config.ESX_Notify then
-								exports['esx_notify']:Notify('error', 2000, Config.Translate['employes_only'])
-							else
-								Config.Custom_Notify(Config.Translate['employes_only'], 2000, 'error')
-							end
+				if Config.ESX_Notify then
+					exports['esx_notify']:Notify('error', 2000, Config.Translate['employes_only'])
+				else
+					Config.Custom_Notify(Config.Translate['employes_only'], 2000, 'error')
+				end
                         end
                         Wait(1000)
                         timeout = false
@@ -96,18 +96,18 @@ function changeState(doors)
     local LockType = doors[1].state
     if LockType == 0 then
         LockType = true
-		if Config.ESX_Notify then
-			exports['esx_notify']:Notify('info', 2000, Config.Translate['closed_door'])
-		else
-			Config.Custom_Notify(Config.Translate['closed_door'], 2000, 'info')
-		end
+	if Config.ESX_Notify then
+		exports['esx_notify']:Notify('info', 2000, Config.Translate['closed_door'])
+	else
+		Config.Custom_Notify(Config.Translate['closed_door'], 2000, 'info')
+	end
     else
         LockType = false
-		if Config.ESX_Notify then
-			exports['esx_notify']:Notify('info', 2000, Config.Translate['opened_door'])
-		else
-			Config.Custom_Notify(Config.Translate['opened_door'], 2000, 'info')
-		end
+	if Config.ESX_Notify then
+		exports['esx_notify']:Notify('info', 2000, Config.Translate['opened_door'])
+	else
+		Config.Custom_Notify(Config.Translate['opened_door'], 2000, 'info')
+	end
     end
     for k, v in ipairs(doors) do
         TriggerServerEvent('xd_doorlock:changeState', v.doorId, LockType)
