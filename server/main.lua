@@ -24,6 +24,6 @@ RegisterServerEvent('xd_doorlock:changeState')
 AddEventHandler('xd_doorlock:changeState', function(doorId, state)
     if type(state) == 'boolean' then
         doorState[doorId] = state
-		TriggerClientEvent('xd_doorlock:changeDoorState', -1, doorId, state)
+	TriggerClientEvent('xd_doorlock:changeDoorState', -1, doorId, state)
     end
 end)
