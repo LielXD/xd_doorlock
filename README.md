@@ -29,3 +29,7 @@ soon***************************
 *********************************************************************
 **Download**<br>
 [Click Here](https://github.com/LielXD/xd_doorlock) to Download!
+*********************************************************************
+**My Scripts**<br>
+* [xd_locksystem](https://github.com/LielXD/xd_locksystem)
+* [xd_doorlock](https://github.com/LielXD/xd_doorlock)
