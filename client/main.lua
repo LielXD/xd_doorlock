@@ -26,7 +26,7 @@ RegisterCommand('toggleDoor', function()
     
     timeout = true
 
-    local ped = GetPlayerPed(-1)
+    local ped = PlayerPedId()
     local doors = {}
     local doorId = 1
 
