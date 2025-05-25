@@ -1,3 +1,7 @@
+-------
+# SUPPORT ISRAEL 🤍💙
+-------
+
 **XD_DOORLOCK**<br>
 This script is completely **Free**.
 
